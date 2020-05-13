@@ -436,22 +436,30 @@ main {
 }
 
 @-webkit-keyframes icono {
-  from {
+  0% {
     -webkit-transform: rotate3d(0, 0, 0, 0);
             transform: rotate3d(0, 0, 0, 0);
   }
-  to {
+  50% {
+    -webkit-transform: rotate3d(0, 0.5, 0, 180deg);
+            transform: rotate3d(0, 0.5, 0, 180deg);
+  }
+  100% {
     -webkit-transform: rotate3d(0, 1, 0, 360deg);
             transform: rotate3d(0, 1, 0, 360deg);
   }
 }
 
 @keyframes icono {
-  from {
+  0% {
     -webkit-transform: rotate3d(0, 0, 0, 0);
             transform: rotate3d(0, 0, 0, 0);
   }
-  to {
+  50% {
+    -webkit-transform: rotate3d(0, 0.5, 0, 180deg);
+            transform: rotate3d(0, 0.5, 0, 180deg);
+  }
+  100% {
     -webkit-transform: rotate3d(0, 1, 0, 360deg);
             transform: rotate3d(0, 1, 0, 360deg);
   }
