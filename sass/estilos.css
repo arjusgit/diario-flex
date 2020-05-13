@@ -445,8 +445,8 @@ main {
             transform: rotate3d(0, 0.5, 0, 180deg);
   }
   100% {
-    -webkit-transform: rotate3d(0, 1, 0, 360deg);
-            transform: rotate3d(0, 1, 0, 360deg);
+    -webkit-transform: rotate3d(0, 0, 0, 0);
+            transform: rotate3d(0, 0, 0, 0);
   }
 }
 
@@ -460,8 +460,8 @@ main {
             transform: rotate3d(0, 0.5, 0, 180deg);
   }
   100% {
-    -webkit-transform: rotate3d(0, 1, 0, 360deg);
-            transform: rotate3d(0, 1, 0, 360deg);
+    -webkit-transform: rotate3d(0, 0, 0, 0);
+            transform: rotate3d(0, 0, 0, 0);
   }
 }
 /*# sourceMappingURL=estilos.css.map */
