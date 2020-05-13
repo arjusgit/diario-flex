@@ -338,32 +338,78 @@ main {
   width: 8em;
 }
 
-.social {
+.main-footer .social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  font-size: 1.7em;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.social li {
-  margin: 0.9em;
+.main-footer .social a {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: #000000;
+  color: #ffffff;
+  margin: 20px;
+  text-align: center;
+  border-radius: 100px;
+  -webkit-transform: .3s ease all;
+          transform: .3s ease all;
 }
 
-.social li i {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: #fff;
+.main-footer .social a i {
+  font-size: 20px;
+  line-height: 60px;
 }
 
-@media (min-width: 768px) {
-  .social {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+.main-footer .social .twitter {
+  background: #1da1f2;
+}
+
+.main-footer .social .instagram {
+  background: #c13584;
+}
+
+.main-footer .social .facebook {
+  background: #3b5998;
+}
+
+.main-footer .social .youtube {
+  background-color: red;
+}
+
+.main-footer .contenedor-icono:hover a {
+  -webkit-animation: icono .5s ease;
+          animation: icono .5s ease;
+}
+
+@-webkit-keyframes icono {
+  from {
+    -webkit-transform: rotate3d(0, 0, 0, 0);
+            transform: rotate3d(0, 0, 0, 0);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 1, 0, 360deg);
+            transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
+
+@keyframes icono {
+  from {
+    -webkit-transform: rotate3d(0, 0, 0, 0);
+            transform: rotate3d(0, 0, 0, 0);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 1, 0, 360deg);
+            transform: rotate3d(0, 1, 0, 360deg);
   }
 }
 /*# sourceMappingURL=estilos.css.map */

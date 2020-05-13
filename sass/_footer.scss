@@ -1,41 +1,75 @@
 .main-footer {
-    line-height: 2;
-    background-color: $color-footer;
-    color: $blanco;
-    flex-direction: row;
-    margin-top: auto;
-    font-size: 0.8em;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding: 1.5em;
+  line-height: 2;
+  background-color: $color-footer;
+  color: $blanco;
+  flex-direction: row;
+  margin-top: auto;
+  font-size: 0.8em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em;
 
-    .logo {
-      width: 8em;
-
-  }
+  .logo {
+    width: 8em;
 
   }
+
+
 
   .social {
     display: flex;
-    justify-content: space-evenly;
-    font-size: 1.7em;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
 
-    li {
-      margin: 0.9em;
-  
-      i {
-        display: flex;
-        color: $blanco;
-      }
+  .social a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #000000;
+    color: #ffffff;
+    margin: 20px;
+    text-align: center;
+    border-radius: 100px;
+    transform: .3s ease all;
+  }
+
+  .social a i {
+    font-size: 20px;
+    line-height: 60px;
+  }
+
+  .social .twitter {
+    background: #1da1f2;
+  }
+
+  .social .instagram {
+    background: #c13584;
+  }
+
+  .social .facebook {
+    background: #3b5998;
+  }
+
+  .social .youtube {
+    background-color: red;
+  }
+
+  .contenedor-icono:hover a {
+    animation: icono .5s ease
+  }
+
+  @keyframes icono {
+    from {
+      transform: rotate3d(0, 0, 0, 0)
+    }
+
+    to {
+      transform: rotate3d(0, 1, 0, 360deg);
     }
   }
 
-
-
-  @media(min-width: 768px) {
-    .social {
-        justify-content: center;
-    }
-  }
+}
