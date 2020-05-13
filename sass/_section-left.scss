@@ -1,0 +1,12 @@
+.section-left {
+    order: 2;
+}
+
+@media(min-width: 1024px){
+    .section-left{
+        order: 1;
+        flex-basis: 20%;
+        margin-top: 2.5em;
+    }
+}
+

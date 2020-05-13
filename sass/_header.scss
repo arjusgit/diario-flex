@@ -1,0 +1,17 @@
+.main-header {
+    line-height: 2;
+    background: $color-header url("../img/header.png");
+    color: $blanco;
+    text-align: center;
+    padding-top: 1em;
+    margin-bottom: 2em;
+
+    .logo {
+        width: 8em;
+    }
+}
+
+.link {
+    color: $blanco;
+  }
+  

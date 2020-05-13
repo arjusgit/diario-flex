@@ -1,0 +1,11 @@
+.section-right {
+        order: 3;
+}
+
+@media(min-width: 1024px){
+        .section-right{
+                flex-basis: 20%;
+                margin-top: 2.5em;
+        }
+    }
+

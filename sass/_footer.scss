@@ -1,0 +1,41 @@
+.main-footer {
+    line-height: 2;
+    background-color: $color-footer;
+    color: $blanco;
+    flex-direction: row;
+    margin-top: auto;
+    font-size: 0.8em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5em;
+
+    .logo {
+      width: 8em;
+
+  }
+
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.7em;
+
+    li {
+      margin: 0.9em;
+  
+      i {
+        display: flex;
+        color: $blanco;
+      }
+    }
+  }
+
+
+
+  @media(min-width: 768px) {
+    .social {
+        justify-content: center;
+    }
+  }
