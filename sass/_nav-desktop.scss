@@ -1,0 +1,34 @@
+.nav-desktop {
+  line-height: 5;
+  text-align: center;
+}
+
+.nav-container {
+    display: none;
+}
+
+.nav-container_item {
+  line-height: 2.5;
+  border-bottom: 1px solid var(--color-white);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-container_item:hover {
+  background-color: $color-hover;
+}
+
+.nav-container_link {
+  color: $blanco;
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .nav-container {
+    display: flex;
+  }
+  .nav-container_item {
+    flex-grow: 1;
+  }
+}
