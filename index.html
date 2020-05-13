@@ -14,55 +14,69 @@
 <body>
     <header class="main-header">
         <!--    Made by Erik Terwan    -->
-<!--   24th of November 2015   -->
-<!--        MIT License        -->
-<nav>
-    <div id="hamburguesa">
-      <!--
+        <!--   24th of November 2015   -->
+        <!--        MIT License        -->
+        <nav>
+            <div id="hamburguesa">
+                <!--
       A fake / hidden checkbox is used as click reciever,
       so you can use the :checked selector on it.
       -->
-      <input type="checkbox" />
-      
-      <!--
+                <input type="checkbox" />
+
+                <!--
       Some spans to act as a hamburger.
       
       They are acting like a real hamburger,
       not that McDonalds stuff.
       -->
-      <span></span>
-      <span></span>
-      <span></span>
-      
-      <!--
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <!--
       Too bad the menu has to be inside of the button
       but hey, it's pure CSS magic.
       -->
-      <ul id="menu">
-        <a href="#"><li>Ultimas noticias</li></a>
-        <a href="#"><li>Política</li></a>
-        <a href="#"><li>Sociedad</li></a>
-        <a href="#"><li>Deportes</li></a>
-        <a href="#"><li>Tecno</li></a>
-      </ul>
-    </div>
-  </nav>
+                <ul id="menu">
+                    <a href="#">
+                        <li>Ultimas noticias</li>
+                    </a>
+                    <a href="#">
+                        <li>Política</li>
+                    </a>
+                    <a href="#">
+                        <li>Sociedad</li>
+                    </a>
+                    <a href="#">
+                        <li>Deportes</li>
+                    </a>
+                    <a href="#">
+                        <li>Tecno</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
         <img class="logo" src="./img/logo.png" alt="">
     </header>
 
     <main>
         <nav class="section section-left">
             <article class="noticia">
-                <h3 class="titulo">Los fanáticos del Trinche Carlovich rompieron la cuarentena para
-                    despedir a
-                    su ídolo en la cancha</h3>
+                <a href="https://www.infobae.com/deportes/2020/05/09/emotiva-despedida-al-trinche-carlovich-en-el-estadio-de-central-cordoba-de-rosario/" class="link-titulos">
+                    <h3 class="titulo">Los fanáticos del Trinche Carlovich rompieron la cuarentena para
+                        despedir a
+                        su ídolo en la cancha</h3>
+                </a>
                 <img class="foto" src="./img/foto2.png" alt="">
             </article>
             <div class="divider"></div>
 
             <article class="noticia">
-                <h3 class="titulo">Qué pasará con el servicio doméstico y las peluquerías en la Ciudad
-                    de Buenos Aires</h3>
+                <a href="https://www.infobae.com/coronavirus/2020/05/09/que-pasara-con-el-servicio-domestico-y-las-peluquerias-en-la-ciudad/" class="link-titulos">
+                    <h3 class="titulo">Qué pasará con el servicio doméstico y las peluquerías en la Ciudad
+                        de Buenos Aires</h3>
+                </a>
                 <img class="foto" src="./img/foto3.png" alt="">
             </article>
             <div class="divider"></div>
@@ -71,11 +85,14 @@
 
         <section class="section section-center">
             <article class="noticia">
-                <h3 class="titulo titulo-center">
-                    Sin colegios y con apertura de fábricas: Axel Kicillof empezó a definir la continuidad de la
-                    "cuarentena
-                    administrada"
-                </h3>
+                <a class="link-titulos"
+                    href="https://www.infobae.com/coronavirus/2020/05/07/sin-colegios-y-con-apertura-de-fabricas-la-provincia-de-buenos-aires-empezo-a-definir-la-continuidad-de-la-cuarentena-administrada/">
+                    <h3 class="titulo titulo-center">
+                        Sin colegios y con apertura de fábricas: Axel Kicillof empezó a definir la continuidad de la
+                        "cuarentena
+                        administrada"
+                    </h3>
+                </a>
                 <p class="bajada">
                     El gobernador bonaerense se reunió con un grupo de epidemiólogos, que le recomendaron no abrir
                     indiscriminadamente el aislamiento social en la Provincia de Buenos Aires
@@ -85,9 +102,12 @@
             </article>
 
             <article class="noticia">
-                <h3 class="titulo titulo-center">
-                    Coronavirus en Argentina: registran 285 nuevos casos y es récord de contagios en un día
-                </h3>
+                <a class="link-titulos" href="https://www.infobae.com/sociedad/2020/05/12/coronavirus-en-la-argentina-confirmaron-285-casos-nuevos-y-es-el-dia-de-mas-contagios-desde-que-comenzo-la-pandemia/">
+                    <h3 class="titulo titulo-center">
+                        Coronavirus en Argentina: registran 285 nuevos casos y es récord de contagios en un día
+                    </h3>
+                </a>
+
                 <p class="bajada">
                     Según los números del parte oficial del Ministerio de Salud, en las últimas 24 horas se registraron
                     otras 5 muertes.
@@ -101,22 +121,28 @@
         <section class="section section-right">
             <aside>
                 <article class="noticia">
-                    <h3 class="titulo"> El gobierno porteño habilitó las mudanzas, aunque con
-                        restricciones</h3>
+                    <a href="https://www.infobae.com/economia/2020/05/09/con-17000-contratos-portenos-vencidos-y-tras-la-habilitacion-anunciada-por-rodriguez-larreta-cerca-de-mil-inquilinos-ya-esperan-turnos-de-flete-para-retomar-las-mudanzas/" class="link-titulos">
+                        <h3 class="titulo"> El gobierno porteño habilitó las mudanzas, aunque con
+                            restricciones</h3>
+                    </a>
                     <img class="foto" src="./img/foto4.png" alt="">
                 </article>
                 <div class="divider"></div>
 
                 <article class="noticia">
-                    <h3 class="titulo">Qué comercios podrán abrir al público a partir del martes en la
-                        Ciudad de Buenos Aires</h3>
+                    <a href="https://www.infobae.com/coronavirus/2020/05/09/que-comercios-podran-abrir-al-publico-a-partir-del-martes-en-la-ciudad-de-buenos-aires/" class="link-titulos">
+                        <h3 class="titulo">Qué comercios podrán abrir al público a partir del martes en la
+                            Ciudad de Buenos Aires</h3>
+                    </a>
                     <img class="foto" src="./img/foto5.png" alt="">
                 </article>
                 <div class="divider"></div>
 
                 <article class="noticia">
-                    <h3 class="titulo">Cuáles son las calles que se volverán peatonales para que haya más
-                        espacio para caminar</h3>
+                    <a href="https://www.infobae.com/sociedad/2020/05/09/cuales-son-las-calles-portenas-que-se-volveran-peatonales-para-que-haya-mas-espacio-para-caminar/" class="link-titulos">
+                        <h3 class="titulo">Cuáles son las calles que se volverán peatonales para que haya más
+                            espacio para caminar</h3>
+                    </a>
                     <img class="foto" src="./img/foto6.png" alt="">
                 </article>
                 <div class="divider"></div>

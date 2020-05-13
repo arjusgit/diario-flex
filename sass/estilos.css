@@ -48,6 +48,10 @@ body {
   text-align: center;
 }
 
+.noticia .link-titulos {
+  color: #111111;
+}
+
 .bajada {
   text-align: left;
   font-weight: 400;
@@ -215,10 +219,6 @@ body {
 
 .main-header .logo {
   width: 8em;
-}
-
-.link {
-  color: #fff;
 }
 
 main {
